@@ -11,6 +11,7 @@ int main()
 	{
 		std::cout << "Enter size of your array: ";
 		std::cin >> sizeArray;
+		arrFile << sizeArray << std::endl;
 		int* array{ new  int[sizeArray] {} };
 
 		for (int index{ 0 }; index < sizeArray; index++)
